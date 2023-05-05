@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;800&display=swap');
+
+
+:root {
+    --cream: #F1F6F9;
+    --gray--blue: #394867;
+    --dark--blue: #212A3E;
+    --gray: #9BA4B5;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+}
+.navbar_main {
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark--blue);
+}
+.navbar_main div {
+    align-items: center;
+}
+.navbar__ul {
+    display: flex;
+    width: 20%;
+    margin: 25px 25px auto 0px;
+    justify-content: space-between;
+   
+}
+.navbar__ul li {
+    list-style: none;
+    font-size: 18px;
+}
+.navbar__ul li:hover {
+    color: gray;
+    font-size: 20;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar__ul li a {
+    text-decoration: none;
+    color: var(--gray);
+}
+.navbar__img {
+    height: 100%;
+    margin: 0px 0px 0px 20px;
+}
+.title {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+.section__grid {
+    background-color: white;
+    width: 900px;
+    height: 450px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid: 1fr / repeat(3, 1fr);
+    gap: 20px;
+}
+.Card {
+    border: black 1px solid;
+    padding: 20px;
+    width: 300px;
+    height: 450px;
+}
+.Card h2 {
+    margin: 0px 0px 5px 0px;
+}
+.Card ul li {
+    margin: 0px 0px 0px 15px;
+}
+.Card p {
+    font-weight: bold;
+    margin: 15px 0px 20px 0px;
+}
+.Card button {
+    border: none;
+    width: 100px;
+    height: 35px;
+    background-color: var(--dark--blue);
+    color: var(--cream);
+    margin: 85% 0px 0px 0px;
+}
+.Card1 {
+    border: black 1px solid;
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+}
+.Card1 ul li {
+    margin: 0px 0px 0px 15px;
+}
+.Card1 h2 {
+    color: rgb(40, 40, 143);
+    margin: 0px 0px 5px 0px;
+}
+.Card1 p {
+    font-weight: bold;
+    margin: 15px 0px 20px 0px;
+}
+.Card1 button {
+    border: none;
+    width: 100px;
+    height: 35px;
+    background-color: var(--dark--blue);
+    color: var(--cream);
+    margin: 60% 0px 0px 0px;
+}
+.Card2 {
+    border: black 1px solid;    
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+}
+.Card2 ul li {
+    margin: 0px 0px 0px 15px;
+}
+.Card2 h2 {
+    color: rgb(201, 175, 32);
+    margin: 0px 0px 5px 0px;
+}
+.Card2 p {
+    font-weight: bold;
+    margin: 15px 0px 20px 0px;
+}
+.Card2 button {
+    border: none;
+    width: 100px;
+    height: 35px;
+    background-color: var(--dark--blue);
+    color: var(--cream);
+    margin: 26% 0px 0px 0px;
+}

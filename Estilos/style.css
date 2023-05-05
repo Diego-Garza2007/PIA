@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;800&display=swap');
+:root {
+    --cream: #F1F6F9;
+    --gray--blue: #394867;
+    --dark--blue: #212A3E;
+    --gray: #9BA4B5;
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: var(--gray--blue);
+    font-family: 'Nunito', sans-serif;
+}
+.navbar_main {
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--dark--blue);
+}
+.navbar_main div {
+    align-items: center;
+}
+.navbar__ul {
+    display: flex;
+    width: 20%;
+    margin: 25px 25px auto 0px;
+    justify-content: space-between;
+   
+}
+.navbar__ul li {
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+.navbar__ul li:hover {
+    font-size: 20;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar__ul li a {
+    text-decoration: none;
+    color: var(--gray);
+}
+.navbar__img {
+    height: 100%;
+    margin: 0px 0px 0px 20px;
+}
+
+
+
+.main__flexbox {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main__flexbox img {
+    margin: 60px 0px 0px 20%;
+}
+.main__flexcol {
+    display: flex;
+    flex-direction: column;
+}
+.main__flexcol h1 {
+    margin: 120px 0px 10px 0px;
+    color: var(--cream);
+}
+.main__text {
+    color: var(--cream);
+    margin: 0px 0px 20px 0px;
+}
+.main__flexcol button{
+    width: 50%;
+    height: 40px;
+    border: none;
+    background-color: rgb(19, 19, 95);
+    
+}
+.main__flexbox button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.main__flexcol a {
+    text-decoration: none;
+    color: rebeccapurple
+}
+
+.main__QA {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: 50px auto auto auto;
+
+}
+.main__QA h2{
+    font-size: 18px;
+    margin: 10px;
+    color: var(--cream);
+}
+.main__QA p {
+    font-size: 14px;
+    color: rgb(152, 68, 185);
+}
